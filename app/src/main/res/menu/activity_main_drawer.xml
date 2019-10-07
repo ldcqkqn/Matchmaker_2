@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_club" />
+        <item
+            android:id="@+id/nav_item_shop"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_item_shop" />
+        <item
+            android:id="@+id/nav_matchup_result"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_matchup_result" />
+        <item
+            android:id="@+id/nav_batting_details"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_batting_details" />
+        <item
+            android:id="@+id/nav_my_bank"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_my_bank" />
+        <item
+            android:id="@+id/nav_pick"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_pick" />
+        <item
+            android:id="@+id/nav_my_mission"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_my_mission" />
+        <item
+            android:id="@+id/nav_mesege"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_mesege" />
+        <item
+            android:id="@+id/nav_giftbox"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_giftbox" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_event" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_like" />
+        <item
+            android:id="@+id/nav_item_management"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_item_management" />
+        <item
+            android:id="@+id/nav_club_search"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_club_search" />
+        <item
+            android:id="@+id/nav_bata_search"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_bata_search" />
+        <item
+            android:id="@+id/nav_my_room"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_my_room" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

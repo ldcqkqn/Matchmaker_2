@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.matchmaker_2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_club"
+        android:name="com.example.matchmaker_2.ui.club.ClubFragment"
+        android:label="@string/menu_club"
+        tools:layout="@layout/fragment_club" />
+
+    <fragment
+        android:id="@+id/nav_item_shop"
+        android:name="com.example.matchmaker_2.ui.item_shop.Item_shopFragment"
+        android:label="@string/menu_item_shop"
+        tools:layout="@layout/fragment_item_shop" />
+
+    <fragment
+        android:id="@+id/nav_matchup_result"
+        android:name="com.example.matchmaker_2.ui.matchup_result.Matchup_resultFragment"
+        android:label="@string/menu_matchup_result"
+        tools:layout="@layout/fragment_matchup_result" />
+    <fragment
+        android:id="@+id/nav_batting_details"
+        android:name="com.example.matchmaker_2.ui.batting_details.Batting_detailsFragment"
+        android:label="@string/menu_batting_details"
+        tools:layout="@layout/fragment_batting_details" />
+    <fragment
+        android:id="@+id/nav_my_bank"
+        android:name="com.example.matchmaker_2.ui.my_bank.My_bankFragment"
+        android:label="@string/menu_my_bank"
+        tools:layout="@layout/fragment_my_bank" />
+    <fragment
+        android:id="@+id/nav_pick"
+        android:name="com.example.matchmaker_2.ui.pick.PickFragment"
+        android:label="@string/menu_pick"
+        tools:layout="@layout/fragment_pick" />
+    <fragment
+        android:id="@+id/nav_my_mission"
+        android:name="com.example.matchmaker_2.ui.my_mission.My_missionFragment"
+        android:label="@string/menu_my_mission"
+        tools:layout="@layout/fragment_my_mission" />
+    <fragment
+        android:id="@+id/nav_mesege"
+        android:name="com.example.matchmaker_2.ui.mesege.MesegeFragment"
+        android:label="@string/menu_mesege"
+        tools:layout="@layout/fragment_mesege" />
+    <fragment
+        android:id="@+id/nav_giftbox"
+        android:name="com.example.matchmaker_2.ui.gifrbox.GiftboxFragment"
+        android:label="@string/menu_giftbox"
+        tools:layout="@layout/fragment_giftbox" />
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.matchmaker_2.ui.event.EventFragment"
+        android:label="@string/menu_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/nav_like"
+        android:name="com.example.matchmaker_2.ui.like.LikeFragment"
+        android:label="@string/menu_like"
+        tools:layout="@layout/fragment_like" />
+    <fragment
+        android:id="@+id/nav_item_management"
+        android:name="com.example.matchmaker_2.ui.item_mangement.Item_managementFragment"
+        android:label="@string/menu_item_management"
+        tools:layout="@layout/fragment_item_management" />
+    <fragment
+        android:id="@+id/nav_club_search"
+        android:name="com.example.matchmaker_2.ui.club_search.Club_searchFragment"
+        android:label="@string/menu_club_search"
+        tools:layout="@layout/fragment_club_search" />
+    <fragment
+        android:id="@+id/nav_bata_search"
+        android:name="com.example.matchmaker_2.ui.bata_search.Bata_searchFragment"
+        android:label="@string/menu_bata_search"
+        tools:layout="@layout/fragment_bata_search" />
+    <fragment
+        android:id="@+id/nav_my_room"
+        android:name="com.example.matchmaker_2.ui.my_room.My_roomFragment"
+        android:label="@string/menu_my_room"
+        tools:layout="@layout/fragment_my_room" />
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.matchmaker_2.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.matchmaker_2.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
